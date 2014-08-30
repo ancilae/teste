@@ -1,0 +1,64 @@
+﻿Body{
+				font-family: Comisc sans #000;
+				background-color:#dfdfdf;
+     }
+
+#principal{
+				background-color:#dfdfdf;
+				width: 800px;
+				height: 600px; 
+				position: relative;
+				margin: 0 auto;
+		}
+
+#topo{
+				box-shadow: -10px 2px 10px #ccc;
+				border-radius: 25px 25px 0px 0px; -moz-border-radius: 25px 25px 0px 0px; -webkit-border-radius: 25px 25px 0px 0px;
+	     		background-color:#ffffff;
+				width: 800px;
+				height: 80px;
+				border: 0px solid ;  
+				position: relative;
+				margin: 10px 50px 0px 50px;
+		}
+
+#line{
+				width: 660px; Height: 1px;
+				border-left: none;
+				border-right: none;
+				border-bottom: none;
+				border-top: 1px solid #000;
+}
+
+p{
+				padding-left: 5px;
+				padding-right:5px;
+				text-align: justify;
+}
+ul#menu > li 	{
+				float: left;
+			}
+ul		{
+				padding-left: 20; list-style: none;
+		}	
+li:hover 	{
+				background-color: red;
+				color: white;
+			}		
+li		{
+				border: 1px solid black;
+				width: 100px;
+				padding-left: 20px;
+				margin: 20px 2px 0px 0px;
+				position: left;
+		}
+		
+#conteudo{
+				border-radius: 0px 0px 25px 25px; -moz-border-radius: 0px 0px 25px 25px; -webkit-border-radius: 0px 0px 25px 25px;
+				box-shadow: -10px 10px 10px #ccc;
+				background-color:#ffffff;   
+				width: 800px;
+				height: 500px;
+				position: absolute;
+				margin: 0px 50px 10px 50px;
+		}
